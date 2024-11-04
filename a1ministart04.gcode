@@ -1,5 +1,5 @@
 ;===== machine: A1 mini =========================
-;===== date: 20240620 =====================
+;===== date: 20241104 =====================
 
 ;===== start to heat heatbead&hotend==========
 M1002 gcode_claim_action : 2
@@ -450,4 +450,3 @@ G92 E0.0 ; reset extruder
 G1 E-0.5 F2100 ; small retraction
 G1 X{first_layer_print_min[0]+40} F6000.0 ; move an additional 10mm without extruding
 G92 E0.0 ; reset extruder
-
